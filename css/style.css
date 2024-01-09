@@ -1,0 +1,125 @@
+body {
+    background: #f7f7f7;
+    color: #333;
+    font-family: 'Fira Sans', sans-serif;
+}
+section, header {
+width: 80%;
+max-width: 800px;
+margin: auto;
+}
+
+img {
+    display: block;
+    padding: 0;
+    max-width: 100%;
+}
+
+/*---- Styling typography ---*/
+h1, h2, blockquote {
+    color: #E46211;
+    font-family: 'Merriweather', serif;
+}
+
+p, blockquote {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 5.063rem;
+    color: #333;
+    font-weight: normal;
+    margin: 2rem 0 1rem 0;
+}
+h2 {
+    font-size: 1.75rem;
+    margin: 3rem 0 1rem 0;
+}
+
+blockquote {
+    font-size: 1.75rem;
+    font-style: italic;
+    margin: 0;
+    hanging-punctuation: first;
+    text-indent: -0.75rem;
+}
+
+cite {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #333;
+    font-style: normal;
+}
+
+header h2 {
+    font-size: 2.75rem;
+    font-style: italic;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+header p {
+    font-size: 1.4rem;
+    margin-bottom: 8rem;
+}
+/*-- Stying links ---*/
+a {
+    color: #E46211;
+   text-decoration: none;
+}
+a:hover {
+    color: #333;
+    border-bottom: 1px dotted;
+}
+
+/*--- Style Nav ---*/
+nav {
+    top: 0;
+    left:0;
+    margin: 0;
+    width: 100%;
+    background: #E46211;
+    padding: 2rem 0;
+    font-size: 0.8rem;
+}
+nav ul {
+text-align: right;
+text-transform: uppercase;
+letter-spacing: 1px;
+list-style-type: none; 
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    color: #f7f7f7;
+}
+nav a:hover {
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo {
+    font-size: 1.8rem;
+    text-align: left;
+    padding-right: 50vw;
+    font-family: 'Merriweather', serif;
+}
+
+footer {
+    background: #E46211;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #f7f7f7;
+    padding: 4rem 0 3rem 0;
+    margin-top: 4rem;
+}
+
+footer p {
+    margin: 0 12rem;
+}
