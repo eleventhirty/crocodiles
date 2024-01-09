@@ -1,0 +1,269 @@
+/*-- CSS Reset --*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+/*-- Start main styling --*/
+
+body {
+    background: #f7f7f7;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section, header {
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+}
+
+section, header {
+    margin-bottom: 4rem;
+}
+
+header h1, h2, blockquote {
+    font-family: 'Playfair Display', serif;
+}
+
+header h2 {
+    
+}
+
+header p {
+    font-size: 1.5rem;
+    
+}
+
+p, blockquote {
+    padding: .5rem 0;
+    line-height: 1.3;
+    color: #333333;
+}
+
+h1, h2 {
+    color:#87460D;
+}
+
+h1 {
+    font-size: 5.653rem;
+    margin-top: 5rem;
+    padding-bottom: 0;}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.999rem;
+    color:#87460D;
+    hanging-punctuation: first;
+    text-indent: -0.7rem;
+}
+
+blockquote cite {
+    font-style: normal;
+    font-size: 1.25rem;
+    color: #333333;
+}
+
+.leader {
+    text-transform: uppercase;
+}
+
+.market {
+    background: #D8C385;
+    padding: 6rem 0 3rem 0;
+}
+
+
+/*-- Styling Links --*/
+ a {
+    color:r#87460D;
+    text-decoration: none;
+ }
+
+ a:hover {
+    color: #333333;
+    border-bottom: 1px dotted;
+ }
+
+/*-- Navigation --*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #87460D;
+    padding: 1.5rem 0;
+    font-size: 0.75rem;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+}
+
+nav a {color: #f7f7f7;}
+
+nav a:hover {
+    border-bottom: none;
+    color: rgb(218, 171, 248);
+    transition: all 0.3s ease-in-out;
+}
+
+.gridimage {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.sun {margin-top: -1rem;}
+
+.street {
+    background: #87460D;
+    padding: 6rem 0 3rem 0;
+}
+
+.street p {
+    color: #f7f7f7;
+}
+
+.street h2 {
+    color: #f7f7f7;
+}
+
+.light {
+    background: rgb(251, 253, 207);
+    padding: 3rem 0;
+    margin-top: -3.5rem;
+}
+
+
+.dark p {
+    color: #f7f7f7;
+}
+
+.dark h1 {
+    color: #f7f7f7;
+}
+
+.dark h2 {
+    color: #f7f7f7;
+}
+
+
+
+/*-- Images --*/
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.market img {
+    margin: 1rem 0;
+}
+.topimage {
+    margin: 3.5rem 0;
+}
+
+.indent {
+    padding-left: 4rem;
+    font-style: italic;
+}
+
+.leader {
+    text-transform: uppercase;
+}
+
+.dropcap {
+    font-family: 'Playfair Display', serif;
+    float: left;
+    font-size: 6rem;
+    padding-right: .8rem;
+    line-height 10px;
+    color: #87460D
+
+}
+
+hr {
+    margin: 100px 0;
+    height: 1px;
+    background-color: rgb(84, 2, 160);
+    color: rgb(84, 2, 160);
+    border: 0 none;
+}
+
+h2 {
+    font-size: 1.999rem;
+    margin: 1rem 0 3rem 0;
+    color: #333333;
+    }
+
+
+/*-- Styling the footer --*/
+
+footer {
+    background: #333333;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #f7f7f7;
+    padding: 4em 0 3em 0}
+
+footer p {
+    width: 80%;
+    margin: auto;
+    color: #f7f7f7;
+}
+
+.connections{
+    position: relative;
+    margin: 0 auto;
+  }
+  .connections ul{
+    margin: 0;
+    padding: 0;
+  }
+  .connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  
+  }
+  .connections a:link{
+    border-bottom: none;
+  }
+  .connections img,
+  .connections svg{
+    border: none;
+  }
+  .connections a:hover img,
+  .connections a:hover svg{
+    border-bottom: none;}
+  
+  .connections svg {
+        margin: 1em auto;}
+  
+  .connections a:hover svg path {
+        fill: #D8C385;
+        transition: all 0.3s ease-in-out;}
+  
+  footer .connections a:hover svg path {
+          fill:  #D8C385;
+          transition: all 0.3s ease-in-out;}
+
+
+    
+
+                
