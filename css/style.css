@@ -1,0 +1,56 @@
+
+body {
+    background: #f7f7f7;
+    color: #333333;
+    font-family: "Merriweather Sans", sans-serif;}
+
+section, header {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;}
+
+/* Typography */
+
+h1, h2 {
+    font-family: "Merriweather", serif;}
+
+h1, h2, blockquote {
+  color: #743B09;}
+
+h1 {font-size: 7.594rem;
+    line-height: 1.1;
+    color: #AE821C;
+   /* margin: 5rem 0 1rem 0;*/}
+
+h2 {font-size: 2.250rem;
+    margin: 6rem 0 2rem 0;}
+
+/* header h2 {
+    font-weight: 300;
+    color: #333333;
+    font-style: oblique;
+    margin: 1rem 0 4rem 0;} */
+
+header p 
+    {font-family: "Merriweather Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+  /*  color: #743B09;*/}
+
+p, blockquote {
+    margin-bottom: 1.5rem;
+    line-height: 1.5}
+
+/* blockquote {
+    font-family: "Merriweather", serif;
+    line-height: 1.6;
+    font-style: italic;
+    font-size: 1.562rem;
+    hanging-punctuation: first;
+    text-indent: -0.6rem;
+    margin: 4rem 0 2rem 0;} */
+
+/* footer {
+    text-align: center;
+    margin: 4rem 0;
+} */
